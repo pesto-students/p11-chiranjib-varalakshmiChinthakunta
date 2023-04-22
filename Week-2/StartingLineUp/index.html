@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content = "width=device-width",initial-scale=1.0">
+    <title>Starting Lineup</title> 
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2>Starting Lineup</h2>
+    </header>
+    <form  id="login" action="" method="post">    
+        <div  class="container">            
+            <fieldset>
+                 <legend>Status:</legend>                 
+                 <input type="radio" id="draft" name="lineup" value="Draft">
+                 <label for="draft">Draft</label><br>
+                 <input type="radio" id="final" name="lineup" value="Final" checked>
+                 <label for="css">Final</label><br>             
+            </fieldset>
+            <p>
+                <label for="date">Date:</label>                             
+                <select name="date" id="date">
+                    <option value="March20">March 20</option>
+                    <option value="March24">March 24</option>
+                    <option value="April2">April 2</option>
+                    <option value="April6">April 6</option>
+                    <option value="April13">April 13</option>
+                 </select>
+            </p>
+            <fieldset>
+                <legend>Players:</legend>
+                <input type="checkbox" id="name1" name="name1" value="Vibha">
+                <label for="name1">Vibha</label><br>
+                <input type="checkbox" id="name2" name="name2" value="Teja">
+                <label for="name2">Teja</label><br>
+                <input type="checkbox" id="name3" name="name3" value="Ved">
+                <label for="name3">Ved</label><br>
+                <input type="checkbox" id="name4" name="name4" value="Vara">
+                <label for="name4">Vara</label>
+            </fieldset>
+                <br><br>
+                <button type="submit" id="log">Login</button>
+        </div>    
+    </form>
+</body>
