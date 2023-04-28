@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content = "width=device-width",initial-scale=1.0">
+    <title>Happy BirthDay Message Creator</title> 
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2>Happy BirthDay Message Creator</h2>
+    </header>
+    <form  id="birthday" action="" method="post">    
+        <div class="birthday"">
+            <!-- Username -->
+            <label for="username">Message?</label>
+            <!-- Make sure to put "required" for both the input fields -->
+            <input type="text" placeholder="Enter Username" name="username"  id="Uname" required>
+            <br><br>
+            <label for="email">Email Address?</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" required>
+            <br><br>
+            <label for="dateToSend">Date to Send?</label>
+            <input type="date"  name="dateToSend"  id="dateToSend" required>
+            <br><br>
+            <label for="MsgColor">Message Color?</label>
+            <input type="color"  name="MsgColor" id="MsgColor" required>
+            <br><br>
+            <label for="blinks">Number of Blinks?</label>
+            <input type="number"  name="blinks" id="blinks" >
+            <br><br>
+            <label for="volume">Music Volume?</label>
+            <input type="range"  name="volume" id="volume" >
+            <br><br>
+            <!-- Submit button -->
+            <button type="submit" id="log">Send Birthday Message</button>
+        </div>
+    
+    </form>
+</body>
